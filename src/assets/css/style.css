@@ -1,0 +1,158 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,abbr,address,big,em,img,q,small,strike,strong,
+sub,sup,tt,var,i,dl,dt,dd,ol,ul,li,form,fieldset,label,table,caption,tbody,thead,tfoot,tr,th,td,article,
+aside,canvas,details,figure,figcaption,header,footer,menu,nav,output,section,time,mark,audio,
+video,input,select,button{margin:0;padding:0;border:0;font-family:'微软雅黑',Droid Sans Fallback,Heiti SC,Arial,Droid Sans,Helvetica,HelveticaNeue;}
+*{margin: 0;padding: 0;}
+body{font-family: "微软雅黑",arial,"宋体";font-size:12px;background-color:rgba(242, 242, 242, 0.619607843137255);}
+ul,ol,li{list-style: none;}
+a{text-decoration:none;}
+/*设置单位大小*/
+html{
+	font-size:calc(100vw/7.5);
+	font-size:-webkit-calc(100vw/7.5);
+	font-size:-moz-calc(100vw/7.5);
+}
+
+/*登录*/
+.login_body{width: 100%;}
+.login_body h1{font-size:0.6rem;text-align: center;line-height: 2.5rem;}
+.login_usermasg{width: 100%;height: 2rem;background:#fff;border-top:1px solid rgb(228, 228, 228);}
+.login_haoma{width: 94%;height: 1rem;margin-left: 6%;}
+.login_haoma p{float: left;font-size: 0.3rem;color: #000;line-height:1rem;padding: 0 0.2rem;}
+.login_haoma input{float: left;height: 0.8rem;padding: 0.1rem;margin-left: 0.3rem;font-size: 0.3rem;width:67%;outline: none;}
+.login_userbottom{border-bottom: 1px solid #ccc;}
+.login_login{width: 90%;margin:0 auto;height: 1rem;background: rgba(22, 155, 213, 1);text-align: center;line-height: 1rem;font-size: 0.4rem;color: #fff;border-radius: 0.2rem;}
+.login_haoma img{float: left;width:0.5rem ;padding: 0.22rem 0;display: none;}
+.login_tishi{width: 100%;height: 1rem;}
+.hidetishi{color: red;font-size: 0.3rem;clear: both;padding: 0.2rem 0.5rem;display: none;}
+.clear{clear: both;}
+
+/*首页*/
+.indexbox{width: 100%;}
+.indexbox200{width: 100%;height: 13.5rem;}
+.index_nav{width: 100%;}
+.index_home{height: 0.5rem;font-size: 0.38rem;padding: 0.35rem 0 0.3rem 0.5rem;width:31%; display: inline-block; margin-left: 0.1rem;font-weight: bold;}
+.index_home img{width: 0.5rem;margin-bottom: 0.1rem;}
+.clickaddnavbox{width: 100%;background: #fff;height: 1.3rem; clear: both;}
+.clickaddnav{width: 27%; display: inline-block;}
+.hellouser{width: 24%;font-size: 0.25rem;float: right;margin-top: -0.25rem;margin-right: 0.7rem;}
+.clickaddnav{font-size: 0.33rem;padding: 0.4rem 0.05rem;font-weight: bold;font-size: 0.38rem;}
+.clickaddnav span{color: #3399FF ;margin-left: 0.1rem;font-weight: bold;font-size: 0.38rem;}
+.hellouser span{color: #3399FF;}
+
+.nav_chooseul li{width: 84%;margin:0 auto;background: #fff;padding: 0.4rem 0.4rem;margin-top: 0.2rem;}
+
+.nav_firstimg{float: left;margin-left: 0.2rem;padding-top: 0.1rem;}
+.nav_li_p{float: left;font-size: 0.3rem;padding-left: 0rem;line-height: 0.7rem;}
+.nav_changeimg{float: right;display: none;margin-top: 0.26rem;margin-right: 0.4rem;}
+.nav_img_show{display: block;}
+.exitbtn{width: 80%;height: 1rem;text-align: center;line-height: 1rem;margin:0.2rem auto 0;color: red;background: #fff;border-radius:0.1rem ;font-size: 0.33rem;}
+
+.nav_xialadiv{display: none;}
+.nav_xialadiv li{padding: 0rem 0rem 0 0.4rem !important;width: 90% !important;}
+.nav_xialadiv p{margin-left: 0.25rem !important;}
+.libottom{border-bottom: 1px solid #ccc;}
+
+/*道具赠送*/
+.gift_form_box{width: 100%;background:#fff;margin-top: 2px;clear: both;}
+.gift_type{width: 94%;margin-left: 6%;border-bottom:1px solid #ccc ;height: 1.3rem;}
+.gift_type span{float: left; line-height: 1.3rem;}
+.must{color: red;font-size: 0.3rem;}
+.gift_type_title{font-size: 0.3rem;}
+.gift_type input{width: 0.3rem;height: 0.3rem;display: inline-block;margin-left: 0.6rem;margin-top: 0.5rem;}
+#demond{margin-left: 0.5rem;}
+.gift_type label{font-size: 0.3rem;padding: 0.4rem;margin-left: -0.3rem;}
+.use_type input{margin-left: 0 !important;}
+#gamer{margin-left: 0.5rem !important;}
+.use_type label{padding-right: 0 !important;}
+.nowdaysidbox{position: relative;}
+.game_id input{width: 71% !important;height: 1rem !important; font-size: 0.3rem;margin-top: 0.15rem;outline: none;padding-left: 0.2rem;}
+.nowdaysid{width: 100%;border: 1px solid #666;box-sizing: border-box;padding: 0.2rem 0.35rem;position: absolute;top: 0;left: 0;display: none;background: #fff;z-index: 20;}
+.nowdaysid p{font-size: 0.3rem;color: #999;width: 50%;}
+.nowdaysidul li{float: left;width: 28%;padding: 0.12rem;}
+.nowdaysid img{position: absolute;top: 8%;right: 3%;}
+#idgamername{width: 65% !important;}
+
+.nowroomcard{font-size: 0.3rem;color: #333333 !important;}
+#sendmathnum{width: 65% !important;margin-left: 0.3rem ;}
+.fastgift li{float: left;padding: 0.3rem;font-size: 0.3rem;margin-top: 0.1rem;margin-left: 0.25rem;color: #666;}
+.xiahuaxian{border-bottom: 1px solid #666;}
+
+.nowwaycengbtn{width: 90%;height: 1rem;margin:0 auto;text-align: center;line-height: 1rem;color: #fff;background: rgba(22, 155, 213, 1);margin-top: 1rem;border-radius: 5px;font-size: 0.3rem;}
+.positionimg{position: absolute;right: 3%;top: 36%;}
+.successsend{width: 100%;height: 120px;background-color: rgba(51, 51, 51, 0.619607843137255);overflow: hidden;}
+.successsend img{display: block;margin:0.3rem auto;}
+.successsend p{font-size: 14px;text-align: center;color: #fff;}
+
+.layui-m-layercont{padding: 0 !important;overflow: hidden;height: 113px;}
+.layui-m-layer0 .layui-m-layerchild{width: 50% !important;height: 113px !important;}
+
+/*赠送记录*/
+.giftreord_btn{width: 100%;background-color: rgba(242, 242, 242, 0.619607843137255);}
+.giftreord_btn_all{width: 20%;height: 0.8rem;background:#fff;border:1px solid #169BD5;border-radius: 10px;font-size: 0.3rem;text-align: center;line-height: 0.8rem;color: #169BD5;float: left;margin-left: 4%;margin-top: 5%;}
+.checked{background: #169BD5;color: #fff;}
+.giftreord_btn p{float: left;font-size: 0.3rem;color: #169BD5;padding: 0.55rem;}
+.giftrecord_tboday{width: 100%;}
+.giftrecord_tboday_box{width: 100%;border-bottom:1px solid #ccc;padding: 0.1rem 0;background: #fff;}
+.peopleid{float: left;width: 0.6rem;height: 0.6rem;border: 2px solid #333;border-radius:1rem ;color: #000;text-align: center;line-height: 0.6rem;font-size: 0.22rem;margin-left: 2%;margin-right: 0.2rem;}
+.giftrecord_logo p{float: left;font-size: 0.25rem;color: #666;width: 72%;margin-top: 0.04rem;}
+.giftrecord_logo span{overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis;white-space:nowrap;width:24%;font-size: 0.25rem;}
+.giftrecord_logo{float: left;width: 76%}
+.zhuanruzhuanchu{float: left;width: 24%;line-height: 0.5rem;}
+.zhuanru_type{width: 43%;height: 0.5rem;margin-top: 10%;background: #d1d6d1; float: left;font-size: 0.3rem;text-align: center;line-height: 0.5rem;}
+.zhuanruzhuanchu p{font-size: 0.25rem;color: #1AAD19;font-weight: bold;float: left;margin-top: 10%;margin-left: 3%;}
+.giftrecord_logo em{color: #3399FF;}
+.addcolor {color: red !important;}
+
+/*创建代理*/
+.createagent{ width: 100%;}
+.mustwrite{width: 100%;height: 1.1rem;color: #A1A1A1;font-size: 0.28rem;    line-height: 1.3rem;font-size: 0.3rem; clear: both; text-indent: 20px;} 
+.agentimformation{width: 100%;height: 2rem;background: #fff;}
+.creat_agentid{width: 96%;margin-left: 4%;height: 1rem;border-bottom: 1px solid #ccc;position: relative;clear:both ;}
+.creat_agentid p{width: 15%;float: left;font-size: 0.3rem;color: #000;padding: 0.3rem 0;}
+.creat_agentid input{ width: 75%;height: 0.8rem;padding-top: 0.1rem;float: left;border: 0;outline: none;padding-left: 0.3rem;font-size: 0.3rem;}
+.c-red{color: red;float: left;font-size: 0.3rem;margin-top: 0.2rem;}
+.creat_agentid img{position: absolute;right: 3%;top: 20%;width: 0.5rem;}
+
+
+/*代理列表*/
+.agentlist_box{ background-color:rgba(121, 121, 121, 1);width: 100%;}
+.list_tbody{width: 100%;background: #fff;margin-top: 0.3rem;}
+.agent_list_imfo{width: 96%;margin-left: 4%;border-bottom: 1px solid #ccc;height: 1.3rem;}
+.agentlist_name{width: 80%;float: left;}
+.agentlist_name p{width: 50%;float: left;font-size: 0.28rem;padding: 0.1rem 0;}
+.agentlist_name span{overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis;white-space:nowrap;max-width:55%;display:inline-block;font-size: 0.25rem;}
+.lastgold{color: #3399FF;}
+.agentlist_edit{width: 15%;padding: 1%;font-size: 0.3rem ;float: left;color: #3399FF;text-align: center;line-height: 1rem;}
+
+
+/*代理编辑*/
+.agent_editbac{background: rgb(247,247,247);}
+.pswnull{width: 100%;height: 1rem;color: #A1A1A1;font-size: 0.3rem;padding-left: 0.35rem;line-height: 1rem;}
+.agent_editid{width: 100%;height: 0.8rem;background: #fff;font-size: 0.3rem;padding-left: 0.4rem;line-height: 0.8rem;}
+.agent_edit_base{width: 100%;height: 0.8rem;background: #fff;font-size: 0.3rem;padding-left: 0.4rem;line-height: 0.8rem;}
+.agent_edit_base p{font-size: 0.3rem;float: left;}
+.agent_edit_base span{color: red;}
+.agent_edit_base input{float: left;font-size: 0.3rem;height:0.75rem;margin-left: 1rem;outline: none;}
+.agent_editid p{float: left;}
+.agent_editid input{float: left;font-size: 0.3rem;height: 99%;margin-left: 0.7rem;outline: none;}
+.agent_flo{width: 100%;float: right; border-bottom: 1px solid #ccc;}
+
+/*代理筛选*/
+.agent_search{height: 1.2rem;}
+.agent_search .agent_flo{height: 1.2rem !important;}
+.agent_search p{line-height: 1.2rem;}
+.agent_search input{margin-top: 0.2rem !important;}
+
+/*我的资料*/
+.mymsg{width: 100%;background: rgb(247,247,247);width: 100%;overflow: hidden;}
+.myzhanghao{width: 100%;height: 0.7rem;color: #A1A1A1;font-size: 0.3rem;line-height:0.7rem;padding-left: 0.3rem;}
+.agent_flo span{color: red;}
+.agent_flop p{width: 2rem !important;}
+
+.agentshuaixuan{    color: #3399FF;
+    padding: 0.3rem;
+    font-size: 0.3rem;
+    line-height: 1.5rem;}
+
+.gift_search_bbox{width: 100%;background: #fff;margin-top:0.3rem ;}
